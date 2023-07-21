@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+   height: 725px;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/adbfe331478863.565560d20d517.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Enqyiry-button{
+display: flex;
+flex-wrap: nowrap;
+text-align: center;
+margin-top: 500px;
+margin-left: 650px;
+border: none;
+border-radius: 5px;
+}
+
+@media (max-width:500px){
+    #Enqyiry-button{
+      margin-left: 100px;
+       flex-wrap: wrap;
+       
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+}
+
+.modal{
+    height: 725px;
+}
+#submit{
+    background-color: green;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 500px;
+}
+.card:hover{
+    background-color: grey;
+    backface-visibility: visible;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.9s ease;
+}
+
+#card-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+@media (min-width:390px){
+    #card-main{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+
+#more-package-button{
+    border: none;
+}
+#more-package-button:hover{
+    background-color: red;
+}
+
+.font{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bolder;
+}
+
+ 
+#tourism{
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media(min-width:300px){
+    #tourism{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+} 
+
+.cards-1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid;
+}
+
+.new{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 18rem;
+    margin: 50px;
+    position: relative;
+}
+
+.hov{
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    background-color: aqua;
+    height: 100%;
+    width: 17rem;
+    opacity: .7;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    visibility: hidden;
+}
+.new:hover .hov{
+    visibility: visible;
+}
+
+.new-button{
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.new-section{
+    
+    flex-wrap: nowrap;
+}
+@media(max-width:500px){
+    .new-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.new-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.bike-card{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;
+}
+
+@media(max-width:500px){
+    .bike-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+.new-image{
+    background-color: pink;
+}
+}
+.new-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+@media(max-width:500px){
+    .new-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.footer-main {
+    background-color:#0F254E;
+    color: white;
+    padding-top: 2rem;
+    margin-top: -50px;
+}
+.footer-main .about h5{
+    margin-left: 14%;
+    color: darkorange;
+    
+}
+
+.footer-main .about ul a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footer-main .about ul li{
+    margin-top: 0.7em;
+    color: white;
+    font-size: larger;
+}
+.footer-main .about ul li:hover{
+    text-decoration: underline red;
+
+}
+.footer-main .about{
+    margin-left: 20%;
+}
+
+.footer-image img{
+    
+    width: 40%;
+
+}
+.footer-main .social-media h5{
+    color: darkorange;
+}
+.footer-main .social-media i{
+    padding-left: 1em;
+    color: white;
+}
+.footer-main .social-media i:hover{
+    color: purple;
+}
+
+.up-arrow{
+   
+    background-image: linear-gradient(to bottom right,rgb(255, 247, 0),rgb(130, 220, 238),rgb(0, 73, 128));
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+.up-arrow:hover a{
+    color: white;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+

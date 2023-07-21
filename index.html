@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/e7050580c4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./task.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Caprasimo&family=Dancing+Script&family=Foldit:wght@100&family=Luckiest+Guy&family=Meddon&family=Mr+Dafoe&family=Pacifico&family=Passion+One&family=Qwigley&family=Roboto+Serif:ital,wght@0,400;1,300&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- navbar -->
+        <nav id="main" class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="text-warning text-decoration-none fs-1" href=""> Travel <Span class="text-dark fs-5">Guide</Span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active fw-bolder text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Packages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">All India package</a></li>
+                          <li><a class="dropdown-item" href="#">Honey Moon package</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">solo trip package</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Transport</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Hotels</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">Support</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+         </nav>
+
+            <!-- Button trigger modal -->
+            <button id="Enqyiry-button" type="button" class="btn  btn-primary bg-success enquiry-button"  data-bs-toggle="modal"data-bs-target="#exampleModal">ENQUIRY
+            </button>
+                
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1"    aria-labelledby="exampleModalLabel"  aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">PLEASE SHARE YOUR DETAILS</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <input style="border:none" type="text" placeholder="Name">
+                        <hr>
+                        <input style="border: none;" type="email" placeholder="Email">
+                        <hr>
+                        <input style="border:none" type="text" placeholder="Phone Number">
+                        <hr>
+                        <select name="" id="" style="border: none; color: gray">
+                            <option value="">Your preferance</option>
+                            <option value="">Honey moon package</option>
+                            <option value="">All india trip</option>
+                        </select>
+                        <hr>
+                        <input style="border:none" type="number" placeholder="number of members">
+                        <hr>
+                        <input style="border:none" type="message" placeholder="messages">
+                        <br><textarea name="" id="" cols="30" rows="8" style="border: none;"></textarea>
+                        <hr>
+                        </div>
+                        <div class="text-center">
+                          <button class="ms-5 mb-5" id="submit">submit</button></div>
+                       
+                    </div>
+                    </div> 
+                </div>
+</header>
+  
+<section class="m-3">
+     <h2 class="text-center mt-3">HONEY MOON PACKAGES</h2>
+  
+     <!-- cards -->
+    <div id="card-main" class="d-flex justify-content-evenly mt-5 mx-auto ">
+      <div class="card" style="width: 18rem;">
+        <img style="padding: 10px; height: 180px;" src="https://resize.indiatvnews.com/en/resize/newbucket/730_-/2019/06/pjimage-5-1560241405.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Kerala Honeymoon Packages</h5>
+          <h6 class="text-danger text-center">(04 Nights / 05 Days)</h6>
+          <p class="card-text text-center">
+            A honeymoon to Kerala reaffirms your belief in the notion why this incredible place is called one of the paradises on earth and called ‘God’s own country
+            
+            </p>
+          <a href="#" class="btn btn-primary ms-5">Book Now</a>
+        </div>
+      </div>
+        <div class="card" style="width: 18rem;">
+          <img style="height: 180px; padding: 10px;" src="https://aswin-palayad.github.io/travel-guide/images/maldives.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Maldive Honeymoon Packages</h5>
+            <h6 class="text-danger text-center">(05 Nights / 06 Days)</h6>
+            <p class="card-text text-center">
+              
+              Make the journey to Goa onboard Cordelia Cruises as beautiful as the destination. Premium Cruise with World class amenities,
+              
+              </p>
+            <a href="#" class="btn btn-primary ms-5 mt-4">Book Now</a>
+          </div>
+        </div>
+          <div class="card" style="width: 18rem;">
+            <img style="height: 180px; padding: 10px;" src="https://aswin-palayad.github.io/travel-guide/images/kashmir.jpg"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Manali Honeymoon Packages</h5>
+              <h6 class="text-danger text-center">(07 Nights / 08 Days)</h6>
+              <p class="card-text text-center">
+                A honeymoon to Kerala reaffirms your belief in the notion why this incredible place is called one of the paradises on earth and called ‘God’s own country
+                
+                </p>
+              <a href="#" class="btn btn-primary ms-5">Book Now</a>
+            </div>
+          </div>
+            <div class="card" style="width: 18rem;">
+              <img style="height: 180px; padding: 10px;" src="https://aswin-palayad.github.io/travel-guide/images/goa.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Goa Honeymoon Packages</h5>
+                <h6 class="text-danger text-center">(04 Nights / 05 Days)
+                </h6>
+                <p class="card-text text-center">
+                  Make the journey to Goa onboard Cordelia Cruises as beautiful as the destination. Premium Cruise with World class amenities,
+                </p>
+                <a href="#" class="btn btn-primary ms-5 mt-5">Book Now</a>
+              </div>
+            </div>
+  </div>
+</section>
+
+  <div  class="text-center mt-4 mb-4"><button id="more-package-button" class="btn btn-primary btn-align-center fs-bold rounded-pill border-none">MORE PACKAGES</button></div>
+
+
+  <section class="kerala-fest bg-light m-3">
+    <h1 class="text-center mt-2 mb-3">SPECIAL KERALA FESTIVAL TOURS</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img width="100%" height="300px" src="https://img.onmanorama.com/content/dam/mm/en/travel/travel-news/images/2022/9/4/nehru-trophy-boat-race-2022-art.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="font text-primary fs-bold">KERALA BOAT RACE</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+            <button class="btn btn-info">more details</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img width="100%" height="300px" src="https://aswin-palayad.github.io/travel-guide/images/keralacaro1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="font text-info fs-bold">KADHAKALI</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+            <button class="btn btn-info">more details</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img width="100%" height="300px" src="https://i.ytimg.com/vi/hvts3A3DtWs/maxresdefault.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="font text-primary fs-bold">THRISSUR POORAM</h1>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button class="btn btn-info">more details</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+        <div  class="row ">
+          <div id="tourism"  class="col  mt-5 p-4  d-flex justify-content-evenly">
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/R83BlU5nnbs" title="Signature Video  | Kerala Tourism | Experience God’s Own Country" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
+          
+            <img width="500" class="mt-2" src="https://aswin-palayad.github.io/travel-guide/images/kerala-culture.jpg" alt="">
+          </div>
+        </div>
+  </section>
+
+  <h1 class="text-center mt-3 mb-4">NORTH INDIAN TOURS</h1>
+    <section class="new-section d-flex m-3">
+      <!-- cards-2 -->
+      <div class="new">
+        <img width="100%" height="100%" class="rounded" src="https://media.istockphoto.com/id/1164329797/photo/hindu-sadhu-sitting-on-a-boat-overlooking-varanasi-city-architecture-at-sunset.jpg?s=612x612&w=0&k=20&c=LbpIHRo7kGT7dbUr6b6UuD1d6P0yCaKZ2lbqo3TY988=" alt="">
+        <div class="hov">
+          <h2>VARANASI</h2>
+          <br>
+          <p class="text-dark">RS : <span class="fs-bold">12000/person</span></p>
+          <a class="new-button" href="">BOOK NOW</a>
+        </div>
+      </div>
+
+      <div class="new">
+        <img width="100%" height="100%" class="rounded" src="https://www.livelaw.in/h-upload/2021/02/18/750x450_389326-gulmarg-jk-hc.jpg" alt="">
+        <div class="hov">
+          <h2>KASHMIR</h2>
+          <br>
+          <p class="text-dark">RS : <span class="fs-bold">18000/person</span></p>
+          <a class="new-button" href="">BOOK NOW</a>
+        </div>
+      </div>
+
+      <div class="new">
+        <img width="100%" height="100%" class="rounded" src="https://media.istockphoto.com/id/535570117/photo/golden-temple-in-amritsar-punjab-india.jpg?s=612x612&w=0&k=20&c=TAgZK64Qz6YsljOK1rXZrrW1u1YSlb9e_YBEmm2pfBw=" alt="">
+        <div class="hov">
+          <h2>PUNJAB</h2>
+          <br>
+          <p class="text-dark">RS : <span class="fs-bold">20000/person</span></p>
+          <a class="new-button" href="">BOOK NOW</a>
+        </div>
+      </div>
+
+      <div class="new">
+        <img width="100%" height="100%" class="rounded" src="https://gos3.ibcdn.com/india-rajasthan-147805780122o.jpeg" alt="">
+        <div class="hov">
+          <h2>RAJASTHAN</h2>
+          <br>
+          <p class="text-dark">RS : <span class="fs-bold">14000/person</span></p>
+          <a class="new-button" href="">BOOK NOW</a>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="m-3">
+      <hr>
+     <div class="m-1 mt-5">
+        <h1 class="text-center">OUR PREMIUM FEATURES</h1>
+        <h3 class="new-font text-danger text-center">we will make your dreams come true</h3>
+     </div>
+
+    <div class="bike-card mt-4 p-2">
+      <div style="width: 250px; height: 220px; border: 1px solid grey; border-radius: 50px; text-align: center;" class="bg-light p-2">
+          <div >
+            <img class="new-image rounded-circle" width="60%" src="https://aswin-palayad.github.io/travel-guide/images/Romantic%20Getaway-amico.png" alt="">
+              <h3>FREE BIKE RIDE</h3>
+              <a class="text-decoration-none" href="">Learn more</a>
+          </div>
+        </div>
+
+        <div style="width: 250px; height: 220px; border: 1px solid grey; border-radius: 50px; text-align: center;" class="bg-light p-2 ">
+          <div >
+            <img class="new-image rounded-circle" width="60%"  src="https://aswin-palayad.github.io/travel-guide/images/Campfire-cuate.png" alt="">
+              <h3>CAMPFIRE</h3>
+              <a class="text-decoration-none" href="">Learn more</a>
+          </div>
+        </div>
+
+        <div style="width: 250px; height: 220px; border: 1px solid grey; border-radius: 50px; text-align: center;" class="bg-light p-2 ">
+          <div >
+            <img class="new-image rounded-circle" width="60%" src="https://aswin-palayad.github.io/travel-guide/images/Contact%20us1.png" alt="">
+              <h3>24X7 SUPPORT</h3>
+              <a class="text-decoration-none" href="">Learn more</a>
+          </div>
+        </div>
+
+        <div style="width: 250px; height: 220px; border: 1px solid grey; border-radius: 50px; text-align: center;" class="bg-light p-2 ">
+          <div>
+            <img class="new-image rounded-circle" width="60%" src="https://aswin-palayad.github.io/travel-guide/images/Tour%20guide-pana.png" alt="">
+              <h3>TOUR GUIDE</h3>
+              <a class="text-decoration-none" href="">Learn more</a>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="bg-light">
+
+      <div class="icon text-center text-warning">
+        <i class="fa-regular fa-envelope fa-2xl mt-4"></i>
+      </div>
+
+      <div>
+        <h3 class="new-font text-primary text-center">Our Costomers love</h3>
+      </div>
+
+      <div class="new-div m-5 text-center justify-content-evenly">
+        <div style="width: 250px;" class="cs-1">
+          <img width="100%" height="165x" src="https://static2.tripoto.com/media/filter/tst/img/45716/TripDocument/1475307316_couple_955926_1280.jpg.webp" alt="">
+          <div class="text-center">
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #05480d;"></i>
+          </div>
+          <h4>Michael & Jenny</h4>
+          <p>"We created lots of wonderful memories and the trip was so nice."</p>
+        </div>
+        <div style="width: 250px;" class="cs-1">
+          <img width="100%" height="170px" src="https://www.tusktravel.com/blog/wp-content/uploads/2019/10/Andaman-Honeymoon-1.jpg" alt="">
+          <div class="text-center">
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #05480d;"></i>
+          </div>
+          <h4>Rohith & Amrutha</h4>
+          <p>"A truly satisfying experience.Travel Guide have a great coordination."</p>
+        </div>
+        <div style="width: 250px;" class="cs-1">
+          <img width="100%" height="170px" src="https://as1.ftcdn.net/v2/jpg/05/71/82/24/1000_F_571822473_bPhzsZQStoRwSnueMU2xBDoqRWVh14mJ.jpg" alt="">
+          <div class="text-center">
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star fa-lg" style="color: #215101;"></i>
+            <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #05480d;"></i>
+          </div>
+          <h4>James & Anna</h4>
+          <p>"They have really good packages at reasonable rates."</p>
+        </div>
+      </div>
+    </section>
+
+      <footer>
+        <section>
+            <div class="footer-main">
+                <div class="footer-section container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 ">
+                            <div class="about">
+                                <h5>ABOUT US</h5>
+                                <div class="about_content">
+                                    <ul>
+                                        <a href="">
+                                            <li>Our Company</li>
+                                        </a>
+                                        <a href="">
+                                            <li>Our Management</li>
+                                        </a>
+                                        <a href="">
+                                            <li>Connections</li>
+                                        </a>
+                                        <a href="">
+                                            <li>Annual Reports</li>
+                                        </a>
+                                        <a href="">
+                                            <li>Our Network</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="social-media  text-center">
+                                <h5>SOCIAL MEDIA</h5>
+                                <a  href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter fa-2x"></i></a>
+                                <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12  text-center">
+                            <div class="footer-image">
+                                <img src="https://aswin-palayad.github.io/travel-guide/images/footer%20image.png" class="" alt="">
+                                <h5>Explore the World</h5>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="copy-right text-center pt-3">
+                        <p> © Travel Guide 2023 | Developed by Rishan</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <div class="up-arrow">
+          <a href="#main"> <i class="fa-solid fa-arrow-up fa-2x"></i></a>
+      </div>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
